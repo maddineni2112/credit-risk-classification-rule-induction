@@ -1,0 +1,13 @@
+RIPPER (JRip) Rule Base
+=======================
+
+JRIP rules:
+===========
+
+(checking_status = <0) and (duration >= 16) => class=bad (115.0/45.0)
+(checking_status = 0<=X<200) and (duration >= 24) and (savings_status = <100) => class=bad (44.0/14.0)
+(credit_history = 'no credits/all paid') and (duration <= 30) => class=bad (10.0/1.0)
+ => class=good (531.0/101.0)
+
+Number of Rules : 4
+
